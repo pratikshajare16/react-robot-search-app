@@ -4,7 +4,7 @@ A responsive frontend application built with React.js demonstrating reusable com
 
 ## Demo
 
-![Project Demo](./demo/robofriends-demo.gif)
+[Project Demo](./demo/robofriends-demo.gif)
 
 ## Features
 
