@@ -1,70 +1,167 @@
-# Getting Started with Create React App
+# React Directory Search App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive frontend application built with React.js demonstrating reusable component architecture, real-time search functionality, API data rendering, and responsive UI design.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+![Project Demo](./demo/robofriends-demo.gif)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Real-Time Search Filtering
+- Responsive Card-Based Layout
+- Dynamic API Data Rendering
+- Reusable React Components
+- State Management
+- Search Input Handling
+- Conditional Rendering
+- Interactive UI Design
+- Mobile Responsive Layout
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Frontend**
+- React.js
+- JavaScript
+- HTML5
+- CSS3
 
-### `npm run build`
+**Development Tools**
+- VS Code
+- npm
+- Git & GitHub
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+project-root/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── Card.js
+│   │   ├── CardList.js
+│   │   ├── SearchBox.js
+│   │   └── Scroll.js
+│   │
+│   ├── containers/
+│   │   └── App.js
+│   │
+│   ├── robots.js
+│   ├── index.js
+│   ├── index.css
+│   └── App.css
+│
+├── package.json
+└── README.md
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Functionality
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This application displays robot profile cards fetched from data and allows users to search robots instantly using the search bar.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Workflow:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Application loads robot data
+2. Robot cards render dynamically
+3. User enters search text
+4. Search filtering happens in real time
+5. Matching robot cards are displayed instantly
+6. Responsive layout adjusts across screen sizes
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Core Features Demonstrated
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Dynamic Search Filtering
+Users can search robots by name with instant UI updates.
 
-### Code Splitting
+### Component-Based Architecture
+Application is built using reusable React components for scalability.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Responsive Design
+Layout adapts across desktop and smaller screen sizes.
 
-### Analyzing the Bundle Size
+### API/Data Rendering
+Dynamic rendering of robot/user data into interactive cards.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Clone repository:
 
-### Advanced Configuration
+```bash
+git clone https://github.com/yourusername/react-directory-search-app.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Install dependencies:
 
-### Deployment
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Run application:
 
-### `npm run build` fails to minify
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Application runs at:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+## Skills Demonstrated
+
+- React Component Architecture
+- State Management
+- Event Handling
+- Array Filtering & Mapping
+- Search Functionality
+- Responsive Web Design
+- API/Data Rendering
+- Frontend UI Development
+- Reusable Component Design
+
+---
+
+## Future Improvements
+
+- API-based live data fetching
+- Debounced search optimization
+- Sorting functionality
+- Category filters
+- Dark mode support
+- Loading states
+- Error handling
+- TypeScript migration
+
+---
+
+## Learning Outcomes
+
+This project demonstrates practical frontend development skills including:
+
+- Building scalable React applications
+- Managing UI state
+- Implementing search/filter logic
+- Creating responsive layouts
+- Structuring reusable components
+- Handling dynamic rendering
+
+---
+
+## Author
+
+**Pratiksha Jare**
